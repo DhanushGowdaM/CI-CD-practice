@@ -14,6 +14,6 @@ public class HelloController {
 
     @GetMapping("/status")
     public String status() {
-        return 123;
+        return "App is running!";
     }
 }
